@@ -30,6 +30,9 @@
 
   <remote  name="nc"
            fetch="git://github.com/nocoast/" />
+
+  <remote  name="ak"
+           fetch="git://github.com/anarkia1976/" />
            
   <remote  name="gh"
            fetch="git://github.com/" />
@@ -274,7 +277,8 @@
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cr" revision="jb2" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <!--<project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" /> -->
+  <project path="kernel/samsung/AK-tuna" name="kernel_AK-tuna" remote="ak" revision="ak-4.2.2-official-mainline" />
   <project path="libcore" name="android_libcore" remote="cr" revision="jb2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
