@@ -278,7 +278,7 @@
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cr" revision="jb2" />
   <!--<project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" /> -->
-  <project path="kernel/samsung/AK-tuna" name="kernel_AK-tuna" remote="ak" revision="ak-4.2.2-official-mainline" />
+  <project path="kernel/samsung/AK-tuna" name="AK-tuna" remote="ak" revision="ak-4.2.2-official-mainline" />
   <project path="libcore" name="android_libcore" remote="cr" revision="jb2" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
