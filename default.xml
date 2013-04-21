@@ -281,7 +281,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="nc" revision="jellybean" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />
-  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="rz" revision="cm-10.1" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cx" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cr" revision="jb2" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
