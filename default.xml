@@ -7,6 +7,9 @@
   <remote  name="cx"
            fetch="git://github.com/CodeTh3ory/" />
 
+  <remote  name="rz"
+           fetch="git://github.com/razrqcom-dev-team/" />
+
   <remote  name="fr"
            fetch="git://github.com/franciscofranco/" />
 
@@ -59,6 +62,9 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="cx" revision="master" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="cx" revision="master" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cx" revision="master" />
+  <project path="device/motorola/vanquish-common" name="android_device_motorola_vanquish-common" remote="rz" revision="cm-10.1" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="rz" revision="cm-10.1" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="rz" revision="cm-10.1" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/armzipalign" name="platform_external_armzipalign" remote="cr" revision="master" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -275,6 +281,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="lge-kernel-mako" remote="nc" revision="jellybean" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_samsung_msm8660-common" remote="rz" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cr" revision="jb2" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
@@ -371,6 +378,7 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="cx" revision="master" />
   <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="cr" revision="jellybean" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.1" />
+  <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="rz" revision="cm-10.1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
